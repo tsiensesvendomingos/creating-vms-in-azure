@@ -14,7 +14,7 @@ A Microsoft Azure account is required for everything covered in this Portfolio. 
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2>Creation walk-through:</h2>
 
 <p align="center">
 Start by heading to Azure by browsing to portal.azure.com. Once there, search for Virtual Machines. Under services, select Virtual Machines: <br/>
@@ -29,7 +29,7 @@ That will open the Virtual Machine creation page. Here you will select the subsc
 <img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/e88f1da7-8da7-4492-8d9c-db51bc51f8cc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Scrolling down the page, we can select the VM size, the amount of the virtual CPUs, and the ram the VM will possess. Due to this being a free subscription with credits, we are limited to a maximum of 4 vcpus that can be running at once. We can then create an admin account complete with a username and password. Don't forget to check the box under licensing. We can then advance using the "Review + create" box :  <br/>
+Scrolling down the page, we can select the VM size, the amount of the virtual CPUs, and the ram the VM will possess. Due to this being a free subscription with credits, we are limited to a maximum of 4 vcpus that can be running at once. We can then create an admin account complete with a username and password. Don't forget to check the box under licensing. We can then check Networking to make sure the VM has internet connectivity.:  <br/>
 <img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/33775d84-f566-4f86-b75a-6ed9cec7346e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
