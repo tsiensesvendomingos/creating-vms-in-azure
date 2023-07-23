@@ -44,11 +44,34 @@ Clicking the button will run a quick validation to ensure that the VM can run pr
 Let the deployment commence (it may take some time) The screen will change when the deployment is complete:  <br/>
 <img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/936191b2-a125-4234-a4e7-c35a80fb77cf" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/0fac1a84-3a80-4787-9432-0609b78a253d" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <br />
 <br />
 It is now time to connect to your freshly deployed Virtual Machine. To start, click on "Go to recourse to grab the public IP address. This is needed to connect to the VM using  Remote Desktop Connection:  <br/>
-<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/936191b2-a125-4234-a4e7-c35a80fb77cf" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/3933f558-2185-4b74-960a-69857b76ffe7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Now let's connect to our VM using Remote Desktop Connection. Start by simply searching for "Remote Desktop" using the search bar in the taskbar and open the first app that comes up:  <br/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/a72d062a-9ca4-4e46-8e8f-4acf9d8e36f0" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+When the app launches, you can type the Public IP address in the computer column. Click "Connect" to initiate the connection to the VM:  <br/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/0c8fd7b0-8a00-4abb-9923-abe5f481c429" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Initiating the connection will bring up a Microsoft Security window asking you to enter the credentials for the machine you're trying to connect to in the form of a username and password. We're not connecting using my credentials because we set it to something different when we created the VM. So we will click on "More choices" and then "Use a different account":  <br/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/74f18f0c-99e6-4309-8cd2-3f948d534721" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+This will clear out the Username field allowing us to type in the credentials we created when setting up the VM. Type them in and click "OK" to continue:  <br/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/6c737a0d-5823-43f9-a346-a9b0ee713d89" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Continuing will bring up one final warning prompt. Under the certificate name box, you should see the name that you set your VM to. In our case, it's VM1. This is good as this indicates we connected to the VM we intended to connect. Hit "yes" at the bottom of that window to connect to the VM:  <br/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/0ad94d8c-0cec-41e8-9a51-604e93e791c8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Congratulations! You have successfully created and connected to your Azure Virtual Machine:  <br/>
+<img src="https://github.com/tsiensesvendomingos/creating-vms-in-azure/assets/138411730/7a862af3-e309-44b8-8a87-37a383c598f3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
